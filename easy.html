@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .producto {
+            border: solid 1px black;
+            width: 250px;
+            cursor: pointer;
+            padding: 10px;
+            position: relative;
+
+        }
+
+        .precio p {
+            font-size: 40px;
+        }
+
+        .precios {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .cuotas {
+            position: absolute;
+            top: 150px;
+            left: 20px;
+        }
+
+        .corazon {
+            position: absolute;
+            top: 5px;
+            left: 225px;
+        }
+
+        .ojo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+        }
+
+        .vista {
+            background-color: grey;
+            border-radius: 15px;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .producto:hover .ojo {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="producto">
+        <img src="271950-500-auto.webp" alt="fa" width="100%">
+        <div class="ojo">
+            <div class="vista" style="gap: 8px;">
+                <img src="ojo.svg" alt="" style="transition-delay: 0.5s;">
+                <a style="color: aqua;" href="https://www.easy.com.ar/pileta-lona-445x225x80cm-pelopincho-107/p">Vista
+                    rápida</a>
+            </div>
+        </div>
+        <div>
+            <p><b>Pelopincho</b></p>
+        </div>
+        <div>
+            <p class="info">Pileta 1076 8000L <br>80X225X445 Cm</p>
+        </div>
+        <div class="precios">
+            <div class="descuento">
+                <p
+                    style=" color: white; font-size: 20px; background-color: lightseagreen; border-radius: 15px; padding: 5px;">
+                    20%</p>
+            </div>
+            <div>
+                <p style="text-decoration: line-through;">$421.990</p>
+            </div>
+        </div>
+
+        <div class="precio">
+            <p><b>$358.691,50</b></p>
+        </div>
+        <div
+            style="margin: 20px; background-color: orange; padding: 15px; border-radius: 15px; display: flex; justify-content: center; align-items: center;">
+            <a style="text-decoration: none; color: black;"
+                href="https://www.easy.com.ar/pileta-lona-445x225x80cm-pelopincho-107/p">Agregar al carrito</a>
+        </div>
+        <div class="cuotas">
+            <img src="flag_18csicyber.png" alt="s" width="80px">
+        </div>
+        <div class="corazon">
+            <img src="corazon.svg" alt="f" width="30px">
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
